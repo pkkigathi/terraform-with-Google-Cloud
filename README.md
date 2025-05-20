@@ -13,17 +13,15 @@ This Terraform project deploys my resume hosted on Google Cloud Storage with a C
 - Creates a DNS A record pointing to the load balancer IP
 
 ---
-
 ## Prerequisites
 
 - A Google Cloud Platform project with billing enabled
 - Google Cloud SDK installed and authenticated
 - Terraform installed (version 1.0+ recommended)
 - Compute Engine API and Cloud DNS API enabled for your project
-- A DNS managed zone created in Cloud DNS (e.g. `terraform-gcp` with DNS name `test.peterkigathi.cloud`)
+- A DNS managed zone created in Cloud DNS (terraform-gcp` with DNS name `[test.peterkigathi.cloud](http://website.test.peterkigathi.cloud/)`)
 
 ---
-
 ## File Structure
 
 ├── main.tf               # Terraform configuration file
